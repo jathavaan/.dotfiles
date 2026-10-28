@@ -1,6 +1,5 @@
 [general]
-working_directory = "C:/Users/jathavaan.shankarr/"
-import = ["C:/Users/jathavaan.shankarr/AppData/Roaming/alacritty/theme.toml"]
+import = ["~/AppData/Roaming/alacritty/theme.toml"]
 live_config_reload = true
 
 
@@ -10,7 +9,7 @@ PSMUX_AUTOSTART = "1"
 
 [terminal.shell]
 program = "pwsh"
-args = ["-NoLogo"]
+args = ["-NoLogo", "-WorkingDirectory", "~"]
 
 [window]
 opacity = 1
